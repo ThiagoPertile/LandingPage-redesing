@@ -7,7 +7,7 @@ body {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  font-family: "Mont";
+  font-family: "Inter",sans-serif;
 }
 /* ================================== End Global Styles =====================================================*/
 
@@ -23,6 +23,7 @@ body {
   --off-white: #dddddd;
 
   --monte:font-family: "Mont";
+  --inter:font-family: "Inter",sans-serif;
 }
 /* ================================== End Variables =====================================================*/
 
@@ -47,7 +48,7 @@ body {
   align-items: center;
 }
 .hero__titulo {
-    font-family: 'Mont';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 900;
     font-size: 80px;
