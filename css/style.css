@@ -48,7 +48,7 @@ body {
   align-items: center;
 }
 .hero__titulo {
-    font-family: "Inter";
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-size: 80px;
@@ -57,7 +57,7 @@ body {
 }
 
 .hero__titulo span  {
-    font-family: 'Mont';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 950;
     font-size: 100px;
