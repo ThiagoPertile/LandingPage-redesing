@@ -124,7 +124,7 @@
                 </div>
                 </form>
                 <a style="display: none;" id="linkEbookDownload" download="EBOOK"
-                    href="./ebook/ebook-digitaliza-startse-DONE.pdf">TESTEEEEE</a>
+                    href="./ebook/ebook-digitaliza-startse-DONE.pdf">Ebook Digitaliza</a>
             </div>
             </div>
         </section>
@@ -155,6 +155,7 @@
     <script>
         function donwload() {
             if ($mcj('#mce-EMAIL.valid').get(0) && $mcj('#mce-FNAME.valid').get(0)) {
+                alert("Obrigado por baixar nosso Ebook.\n" + "Click OK para fazer o download.")
                 $mcj('#linkEbookDownload').get(0).click();
             }
         }

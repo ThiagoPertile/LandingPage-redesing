@@ -86,6 +86,8 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 24px;
+    padding: 16px 0;
+  box-shadow: 0px 4px 4px rgba(43, 64, 112, 0.25);
 }
 
 
@@ -121,6 +123,8 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 24px;
+  padding: 16px 0;
+  box-shadow: 0px 4px 4px rgba(43, 64, 112, 0.25);
 }
 
 
@@ -150,10 +154,20 @@ body {
   padding-bottom: 8px;
 }
 
+.hero__btn:hover {
+  background-color: #477cf7;
+  box-shadow: none;
+  color: var(--white);
+}
+.banner__btn:hover {
+  background-color: #477cf7;
+  box-shadow: none;
+}
 
-
-
-
+.button:hover {
+  background-color: #eca601;
+  transform: scale(0.98);
+}
 
 
 
@@ -214,7 +228,7 @@ body {
 
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
   .hero__titulo {
     margin-top: 24px;
     font-size: 40px;
